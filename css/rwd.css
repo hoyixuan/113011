@@ -1,0 +1,84 @@
+body { /*設定背景、字體*/
+	background-image: url(../images/dark.jpeg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	color: #fff;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: arial,helvetica,sans-serif,微軟正黑體;
+}
+
+.box {
+	background-color: rgba(50,50,50,0.6);
+	padding: 20px;
+}
+
+.top {
+	margin:15px auto;
+}
+
+.top nav{ /* 選單背景 */
+	background-color: rgba(50,50,50,0.6);
+	border-color: rgba(50,50,50,0.6);
+}
+
+.navbar-light .navbar-brand{  /*logo 顏色*/
+	color: #FFFFFF;
+}
+
+ /*選單active狀態*/
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	background-color: #FFFFFF;
+	color: rgba(0,0,0,.9);
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{ /*Logo hover*/
+	color: rgb(150, 150, 102);
+}
+
+.navbar-light .navbar-nav .nav-link { /*選單文字的顏色*/
+	color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link:hover { /*選單文字 hover*/
+	color: rgb(150, 150, 102);
+}
+
+/***************************************************************/
+
+.my_photo {
+	width: 75%;
+}
+
+.info p {
+	font-size: 15px;
+	text-align: center;
+}
+
+.info p.name_id {
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.contact {
+	text-align: center;
+}
+
+.contact ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+.contact ul li {
+	display: inline-block;
+	/*padding: 0px 20px;*/
+	font-size: 30px;
+}
+
+.contact ul li a{
+	color: #5e4d4d;
+}
+
+.contact ul li a:hover{
+	color: rgb(150, 150, 102);
+}
